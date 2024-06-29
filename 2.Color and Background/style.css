@@ -1,0 +1,87 @@
+/* Color property */
+h1 {
+	color: blue;
+}
+
+/* Background-color property */
+p {
+	background-color: yellow;
+	padding: 20px;
+}
+
+/* Gradient background */
+.gradient-box {
+	width: 200px;
+	height: 100px;
+	background: linear-gradient(to right, red, orange, yellow);
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.gradient-box:hover {
+	background: linear-gradient(to left, red, orange, yellow);
+    animation: gradient 0.25s infinite;
+}
+@keyframes gradient {
+    0% {
+	    background: linear-gradient(to right, red, orange, yellow);
+    }
+    30% {
+	    background: linear-gradient(to bottom right, red, orange, yellow);
+    }
+    60% {
+	    background: linear-gradient(to bottom, red, orange, yellow);
+    }
+    90% {
+	    background: linear-gradient(to bottom left, red, orange, yellow);
+    }
+    100% {
+	    background: linear-gradient(to left, red, orange, yellow);
+    }
+}
+
+/* Background image */
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.background-image {
+	width: 500px;
+	height: 250px;
+	background-image: url('image.jpg');
+	background-size: cover;
+    color: white;
+    border: 1px solid red;
+    margin: 1rem;
+}
+
+/* Background repeat */
+.background-repeat {
+	width: 500px;
+	height: 250px;
+	background-image: url('image.jpg');
+	background-repeat: repeat-x;
+    margin: 1rem;
+    border: 1px solid red;
+    color: white;
+}
+
+/* Background position */
+.background-position {
+	width: 500px;
+	height: 250px;
+	background-image: url('image.jpg');
+	background-position: center;
+    margin: 1rem;
+    border: 1px solid red;
+    color: white;
+}
+
+/* Additional styles */
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
