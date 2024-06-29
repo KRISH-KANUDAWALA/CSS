@@ -1,0 +1,61 @@
+body {
+	display: grid;
+	justify-content: center;
+}
+
+section {
+	margin-top: 5rem;
+	background-color: #f3f3f3;
+	padding: 2rem;
+	border-radius: 10px;
+	box-shadow: 0px 20px 20px #f3f3f3;
+	transition: all 1s ease-in-out;
+}
+
+section:hover {
+	background-color: #ccc;
+}
+
+h1 {
+	text-align: center;
+}
+/* Element selector */
+p {
+	color: blue;
+}
+
+/* Class selector */
+.highlight {
+	background-color: yellow;
+	padding: 20px;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+}
+
+/* ID selector */
+#unique-element {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+/* Attribute selector */
+a[href="#"] {
+	text-decoration: none;
+	color: blueviolet;
+	transition: all 0.5s ease-in;
+}
+
+a[href="#"]:hover {
+	color: red;
+}
+
+/* Pseudo-class selector */
+ul li:hover {
+	background-color: #ccc;
+}
+
+/* Pseudo-element selector */
+h1::before {
+	content: "⭐";
+	margin-right: 10px;
+}
