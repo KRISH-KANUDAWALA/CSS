@@ -1,0 +1,63 @@
+.grid-container {
+	display: grid;
+	grid-template-areas:
+		"header header"
+		"nav nav"
+		"main main"
+		"footer footer";
+	grid-template-rows: 100px 50px 1fr 50px;
+	grid-template-columns: 200px 1fr;
+	grid-gap: 10px;
+}
+
+.header {
+    text-align: center;
+    font-size: 2rem;
+	grid-area: header;
+	background-color: #000000;
+    color: whitesmoke;
+	padding: 20px;
+}
+
+.nav {
+    text-align: right;
+    font-size: 1.5rem;
+	grid-area: nav;
+	background-color: rgb(43, 226, 156);
+    color: blueviolet;
+	padding: 10px;
+    padding-right: 5rem;
+}
+
+.main {
+	display: grid;
+	grid-template-areas:
+		"content sidebar"
+		"content sidebar";
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns: 2fr 1fr;
+	grid-gap: 10px;
+	grid-area: main;
+}
+
+.content {
+	grid-area: content;
+	background-color: rgb(110, 240, 190);
+	padding: 20px;
+    height: 10rem;
+    text-align: center;
+}
+
+.sidebar {
+	grid-area: sidebar;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+.footer {
+	grid-area: footer;
+	background-color: #000000;
+    color: whitesmoke;
+    text-align: center;
+	padding: 20px;
+}
