@@ -1,0 +1,74 @@
+/* Font Families */
+.serif {
+	font-family: "Times New Roman", serif;
+}
+.sans-serif {
+	font-family: "Helvetica", sans-serif;
+}
+.monospace {
+	font-family: "Courier", monospace;
+}
+
+/* Font Sizes */
+.small {
+	font-size: 12px;
+}
+.medium {
+	font-size: 18px;
+}
+.large {
+	font-size: 24px;
+}
+
+/* Font Weights */
+.light {
+	font-weight: 300;
+}
+.regular {
+	font-weight: 400;
+}
+.bold {
+	font-weight: 700;
+}
+
+/* Font Styles */
+.italic {
+	font-style: italic;
+}
+.oblique {
+	font-style: oblique;
+}
+
+/* Line Height */
+.line-height-1 {
+	line-height: 1.2;
+}
+.line-height-2 {
+	line-height: 1.5;
+}
+
+/* Text Transform */
+.uppercase {
+	text-transform: uppercase;
+}
+.lowercase {
+	text-transform: lowercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+/* Additional styles */
+body {
+	font-family: "Arial", sans-serif;
+	margin: 20px;
+}
+section {
+	margin-bottom: 20px;
+}
+h2 {
+	margin-top: 20px;
+}
+p {
+	margin-bottom: 10px;
+}
