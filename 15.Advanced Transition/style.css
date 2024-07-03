@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .rotate {
+    transform: rotate(45deg);
+  }
+  
+  .scale {
+    transform: scale(1.2);
+  }
+  
+  .skew {
+    transform: skew(10deg);
+  }
+  
+  .translate {
+    transform: translate(50px, 50px);
+  }
+  
+  .combined {
+    transform: translate(50px, 50px) rotate(45deg) scale(1.2) skew(10deg);
+  }
